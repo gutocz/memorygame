@@ -3,15 +3,16 @@
 /* Estilo para o corpo da página */
 body {
     font-family: Arial, sans-serif;
-    background-color: #f5f5f5;
+    background-color: #007bff;
     margin: 0;
     padding: 0;
     text-align: center;
+    color: #fff;
 }
 
 /* Estilo para o formulário */
 form {
-    background-color: #fff;
+    background-color: #aedff7;
     max-width: 400px;
     margin: 0 auto;
     padding: 20px;
@@ -24,6 +25,7 @@ label {
     display: block;
     margin: 10px 0;
     font-weight: bold;
+    color: #007bff;
 }
 
 /* Estilo para os campos de entrada */
@@ -32,17 +34,18 @@ input[type="email"],
 input[type="tel"] {
     width: 100%;
     padding: 10px;
-    margin: 5px 0;
+    margin: 0 auto;
     border: 1px solid #ccc;
     border-radius: 3px;
     font-size: 16px;
+    box-sizing: border-box;
 }
 
 /* Estilo para o botão de envio */
 input[type="submit"] {
     width: 100%;
     padding: 10px;
-    background-color: #007bff;
+    background-color: #ffc107;
     color: #fff;
     border: none;
     border-radius: 3px;
@@ -52,5 +55,19 @@ input[type="submit"] {
 
 /* Estilo para o botão de envio ao passar o mouse */
 input[type="submit"]:hover {
-    background-color: #0056b3;
+    background-color: #ff9800;
+}
+
+.logodiv {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.logodiv img {
+    display: block;
+    width: 40%;
+    height: auto;
+    margin: 0 auto;
 }
